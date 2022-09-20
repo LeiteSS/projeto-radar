@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"Matheus Porto",
+        "email":"matheus.porto@gmail.com",
+        "tel":"(11)91234-5678",
+        "birth":"16/03/2003",
+        "cpf":"123.456.789-10",
+        "cargo":"auxiliar"
+    },
+    {
+        "id":2,
+        "name":"Pablo",
+        "email":"pablo.123@gmail.com",
+        "tel":"(11)91234-5678",
+        "birth":"01/01/2000",
+        "cpf":"123.456.789-10",
+        "cargo":"auxiliar"
+    },
+    {
+        "id":3,
+        "name":"Pedro",
+        "email":"pedro.carlos@gmail.com",
+        "tel":"(11)91234-5678",
+        "birth":"01/01/2001",
+        "cpf":"123.456.789-10",
+        "cargo":"auxiliar"
+    }
+]

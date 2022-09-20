@@ -1,0 +1,70 @@
+.bg-mynav {
+    background-color: #000;
+    padding: 0;
+}
+  
+body {
+    font-size: 1.25rem;
+    background-color: #3bbf4d;
+}
+
+td{
+    line-height: 2rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* Mudando configs do container, pois fica melhor pra visualizar a table sem as quebras */
+.container{
+    max-width: 1220px;
+    margin: 20px auto;
+}
+
+@media screen and (max-width:959px){
+    body{
+        font-size: 1rem;
+    }
+    td{
+        line-height: 1rem;
+    }
+}
+
+.table{
+    background-color: #f6f8fa;
+    box-shadow: 2px 2px 10px #288033;
+}
+
+/* Botão Adicionar Funcionário */
+#addFunc{
+    background-color: #2B8C38;
+    border: 1px solid #000;
+    transition: .3s;
+}
+
+#addFunc:hover{
+    color: #2B8C38;
+    background-color: #f6f8fa;
+}
+
+#addFunc i{
+    margin-right: 5px;
+}
+
+/* Botões Editar/Apagar */
+#btnEditar, #btnApagar{
+    background-color: #2B8C38;
+    color: #f6f8fa;
+    border: 1px solid #000;
+    transition: .3s;
+}
+#btnEditar:hover{
+    color: #2B8C38;
+    background-color: #f6f8fa;
+}
+#btnApagar:hover{
+    color: #f6f8fa;
+    background-color: red;
+}
